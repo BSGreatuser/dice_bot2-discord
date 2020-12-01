@@ -1,2 +1,1 @@
-# -dice_bot-discord
-주사위봇
+- 주사위 봇
