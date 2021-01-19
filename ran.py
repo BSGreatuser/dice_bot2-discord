@@ -13,8 +13,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-     if message.content.startswith('!주사위'):
-
+    if message.content.startswith('!주사위'):
         randomNum = random.randrange(1, 7)
         if randomNum == 1:
             await message.channel.send(embed=discord.Embed(description=':one:', color=0x7C40E5))
